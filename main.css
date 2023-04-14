@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+
+main {
+    display: flex;
+    width: 900px;
+    margin-left: calc((100% - 900px) / 2);
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    
+    }
+
+.apple {
+    background-color: aquamarine;
+    padding: 10%;
+}
+
+h1 {
+
+}
+
+.university {
+    background-color: blue;
+    padding: 10%;
+}
+
+h1 {
+
+}
+
+.users {
+    background-color: coral;
+}
+
+h1 {
+
+}
+
+.arrows {
+    background-color: grey;
+}
