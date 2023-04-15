@@ -1,46 +1,53 @@
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 800px;
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 main {
+    gap: 50px;
     display: flex;
     width: 900px;
-    margin-left: calc((100% - 900px) / 2);
-    margin: auto;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: calc((100% - 900px) / 2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
 }
 
-h1 {
-    
-    }
+div {
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+h1 {  
+    color: red; 
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p {
+    color: grey;
+    text-align: left;
+    margin-left: 10px;
+}
+
+img {
+    filter: invert();
+}
+
 
 .apple {
     background-color: aquamarine;
-    padding: 10%;
-}
-
-h1 {
-
 }
 
 .university {
     background-color: blue;
-    padding: 10%;
-}
-
-h1 {
-
 }
 
 .users {
     background-color: coral;
-}
-
-h1 {
-
 }
 
 .arrows {
