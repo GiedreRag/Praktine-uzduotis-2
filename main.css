@@ -3,43 +3,44 @@ body * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
 }
 
 main {
     gap: 50px;
     display: flex;
-    width: 900px;
-    margin: calc((100% - 900px) / 2);
-    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    width: 950px;
+    margin: 10% calc((100% - 950px) / 2);
 }
 
-div {
-    width: 210px;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+.pictures {
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    filter: invert();
 }
 
-h1 {  
+.logo-background {
+    width: 200px;
+    height: 200px;
+}
+
+.title {  
     color: red; 
     font-size: 22px;
     text-transform: uppercase;
     text-align: center;
+    margin-top: 30px;
 }
 
-p {
+.description {
     color: grey;
-    text-align: left;
     margin-left: 10px;
+    margin-top: 30px;
 }
-
-img {
-    filter: invert();
-}
-
 
 .apple {
-    background-color: aquamarine;
+    background-color: aquamarine;    
 }
 
 .university {
